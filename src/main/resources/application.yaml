@@ -2,7 +2,7 @@
 #  port: 8083
 spring:
   application:
-    name: 3_Customer_Service
+    name: CustomerService
   config:
     import: configserver:http://localhost:8084
 #  datasource:
